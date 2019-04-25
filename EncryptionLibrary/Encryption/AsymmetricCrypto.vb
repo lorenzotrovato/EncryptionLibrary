@@ -246,7 +246,7 @@ Namespace Encryption
         Public ReadOnly Property XMLPublicKey As String
             Get
                 If (TypeOf Me.crProvider Is RSACryptoServiceProvider And Me.bufferLength > 0) Then
-                    Return Me.crProvider.ToXmlString(True)
+                    Return Me.crProvider.ToXmlString(False)
                 Else
                     Throw New CryptographicUnexpectedOperationException("Keys are not generated. Please wait until KeysGenerated event is fired")
                 End If
