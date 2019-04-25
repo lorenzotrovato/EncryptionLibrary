@@ -50,10 +50,10 @@ Compress and decompress files with ZIP Deflate algorithm
 * ArchiveDecompressor: decompress a ZIP archive into multiple files
 
 ## More info
-Objects are automatically disposed after use.
-Be careful on accessing graphical controls in events methods. They're all on separate threads so you should use delgate subs.
-All classes are well documented. Look up there for more detailed usage informations.
+Objects are automatically disposed after use.  
+Be careful on accessing graphical controls in events methods. They're all on separate threads so you should use delgate subs.  
+All classes are well documented. Look up there for more detailed usage informations.  
 
 ### License
-This library is released under GNU General Public License v2.0
+This library is released under GNU General Public License v2.0.  
 Please include the license and quote the author when using it on public software.
